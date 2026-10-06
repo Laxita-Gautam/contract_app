@@ -162,8 +162,6 @@ setSuccess(
   "Contract analyzed successfully."
 );
 
-// Go to review page
-navigate("/review");
 
     } catch (err) {
       setError(
