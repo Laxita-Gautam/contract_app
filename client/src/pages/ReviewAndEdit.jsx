@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = `${import.meta.env.VITE_API_URL}/contract`;
+const API_URL = `${import.meta.env.VITE_API_URL}/api/contract`;
 
 const ReviewAndEdit = () => {
   const [contract, setContract] = useState(null);
