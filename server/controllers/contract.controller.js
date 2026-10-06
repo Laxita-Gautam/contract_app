@@ -23,6 +23,7 @@ export const uploadContract = async (req, res) => {
     }
 
     filePath = req.file.path;
+    console.log("UPLOAD PATH:", filePath);
 
     const fileBuffer = await fs.readFile(filePath);
 
