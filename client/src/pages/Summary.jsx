@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API_URL = `${import.meta.env.VITE_API_URL}/contract`;
+const API_URL = `${import.meta.env.VITE_API_URL}/api/contract`;
 
 const Summary = () => {
   const [contract, setContract] = useState(null);
