@@ -157,10 +157,10 @@ sessionStorage.setItem(
   data.contractId
 );
 
-navigate("/review");
 setSuccess(
   "Contract analyzed successfully."
 );
+navigate("/review");
 
 
     } catch (err) {
