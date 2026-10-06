@@ -116,7 +116,7 @@ function HomePage() {
       // --------------------------------
 
       const response = await fetch(
-        `${import.meta.env.VITE_API_URL}/contract/analyze`,
+        `${import.meta.env.VITE_API_URL}/api/contract/analyze`,
         {
           method: "POST",
           body: formData,
